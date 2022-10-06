@@ -1,0 +1,68 @@
+.servico{
+    background: #f4f4f4;
+    padding-top: 5rem;
+}
+
+.servico .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.servico  h2{
+    margin: 0 auto;
+    font-family:"montserrat";
+    text-align: center;
+    padding-bottom: 5rem;
+    color: #0e091b;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.servico .detalhe-titulo span{
+    font-size: 6rem;
+}
+
+
+.servico .service{
+    background: #eee;
+    padding: 3rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    cursor: default;
+    border-radius: 2rem;
+    transition: all 300ms ease;
+}
+
+.servico .service:hover{
+
+    box-shadow: 0 3rem 3rem #d9d2f0;
+}
+
+.servico .service span{
+    background:#E45A8D;
+    width: 4rem;
+    height: 4rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+
+
+
+
+/*===================== MEDIA QUERIES (MOBILE) =============================*/
+
+
+@media ( max-width: 900px){
+    .servico .container{
+        grid-template-columns: 1fr;
+    }
+  }
+  

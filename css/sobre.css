@@ -1,0 +1,96 @@
+.sobre{
+    background:#110e1b;
+    padding-top: 5rem;
+}
+
+.sobre .container{
+    display: grid;
+    grid-template-columns: 26rem auto;
+    gap: 2rem;
+
+}
+
+
+
+
+.sobre .container .avatar img{
+    border-radius: 2rem;
+    
+   
+}
+
+.sobre h2{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5rem;
+    color: #fafafa;
+    font-size: 4rem;
+    font-weight: 500;
+}
+.sobre p{
+    margin-bottom: 1rem;
+    color: #c4c4c4;
+    font-size: 17px;
+
+}
+
+.sobre .container .mais-conteudo .show-content{
+    display: block;
+}
+
+.sobre .mais-conteudo{
+    display: none;
+}
+
+
+.sobre .saiba-mais{
+    display: block;
+    margin: 1rem 0 2rem;
+    color: #6610f2;
+    cursor: pointer;
+}
+
+.sobre .saiba-mais:hover{
+    text-decoration: underline;
+}
+
+
+.redes-sociais a{
+    display: inline-flex;
+    color:#E45A8D;
+    text-decoration: none;
+    margin-right: 1.3rem;
+    padding: 15px 0;
+
+}
+
+
+.redes-sociais a:hover{
+    color:#4B3774;
+}
+
+
+
+.sobre .container .curriculo .btn-primary{
+     background:linear-gradient(#E45A8D,#0e091b);
+}
+
+
+.sobre .container .curriculo .btn-primary:hover{
+    background:linear-gradient(#4B3774,#0e091b);
+}
+
+
+/*===================== MEDIA QUERIES (MOBILE) =============================*/
+
+
+@media ( max-width: 700px){
+    .sobre{
+        margin-top: 2rem;
+    }
+    .sobre .container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        text-align: center;
+    }
+}

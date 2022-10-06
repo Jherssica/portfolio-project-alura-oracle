@@ -1,0 +1,92 @@
+.contato{
+    background: #141414;
+    padding: 0;
+    max-width: 100vw;
+    padding: 12rem 0 9rem;
+    padding-top: 5rem;
+    border-top: 4px solid #6610f2;
+}
+
+.contato .container{
+    width: 40%;
+}
+
+
+.contato .container h2{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    color: #fafafa;
+    font-size: 4rem;
+    font-weight: 500;
+
+}
+
+
+.contato .container p{
+    text-align: center;
+    color: #fff;
+    opacity: 0.8;
+    margin-top: 0.5rem;
+    font-weight: 400;
+}
+
+
+.contato form{
+    margin-top: 3rem;
+
+}
+
+.contato form input, form textarea{
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 1.6rem;
+    color: #525252;
+    border-radius: 1rem;
+    transition: all 300ms ease;
+
+}
+
+
+.contato form textarea{
+    height: 16rem;
+}
+
+
+
+.contato .btn {
+    width: 60%;
+    font-size: 1.1rem;
+    margin: 2rem auto 0;
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 5rem;
+    background:linear-gradient(#6610f2,#0e091b) ;
+    
+}
+
+
+.contato .btn:hover{
+    background: linear-gradient(#ff0050,#0e091b);
+    cursor: pointer;
+
+}
+
+
+
+
+/*===================== MEDIA QUERIES (MOBILE) =============================*/
+
+
+@media ( max-width: 600px){
+    .contato .container{
+        width: 94vw;
+    }
+
+    .contato .container p{
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+}
